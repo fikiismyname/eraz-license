@@ -1,0 +1,21 @@
+{
+  "name": "eraz-license",
+  "version": "1.0.0",
+  "description": "A simple command-line application for managing software licenses using MongoDB and Node.js.",
+  "main": "app.js",
+  "scripts": {
+    "serve": "node index.js",
+    "manager": "node LicenseManager.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0",
+    "readline": "^1.3.0",
+    "winston": "^3.8.2"
+  }
+}
