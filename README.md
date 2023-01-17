@@ -34,9 +34,14 @@ mongoose.connect(
 );
 ``` 
 
-## Running the script
+## Running the server
 ```bash
 node index.js
+```  
+
+## Running the script
+```bash
+node LicenseManager.js
 ```  
 
 The script will start running and display the menu options.
